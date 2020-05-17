@@ -1,0 +1,51 @@
+body {
+    background-color: #3f4e66;
+    background-image: linear-gradient(to bottom, #213c4a, #033954);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    color: aliceblue;
+}
+
+h1 {
+    color: turquoise;
+    font-size: xX-large;
+    font-family: 'Courier New', Courier, monospace;
+    font: large;
+    text-align: center;
+}
+
+#topPane {
+    margin-top: 100px;
+    height: 100px;
+    width: auto;
+    position: relative;
+}
+
+#leftSidePane {
+    position: absolute;
+    padding-left: 50px;
+    text-align: center;
+}
+
+#rightSidePane {
+    right: 0px;
+    position: absolute;
+    margin-right: 40px;
+    width: 200px;
+}
+
+.paneElement {
+    font: bold;
+    float: left;
+    text-align: center;
+}
+
+.paneElement div {
+    border: 2px solid white;
+    height: 50px;
+    width: 50px;
+    margin-left: 5px;
+
+}

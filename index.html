@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            //   $("button").click(function(){
+            $('div#smallObjs').animate({ left: '300px' });
+            $('div#smallObjs').fadeOut();
+            //   });
+        });
+    </script>
+    <style>
+        body {
+            /* background-color: #3f4e66; */
+            background-image: linear-gradient(to bottom, #213c4a, #033954);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
+        }
+
+        #smallObjs {
+            width: 50px;
+            height: 50px;
+            border: thin solid turquoise;
+            background-size: cover;
+            position: relative;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div id="vanishingDivs">
+
+        <div id="leftGroup" style="position: absolute;left: 0px;">
+
+
+            <div id="smallObjs"></div>
+            <div id="smallObjs" style="padding-left: 100px;"></div>
+            <div id="smallObjs"></div>
+        </div>
+        <div id="rightGroup" style="position: absolute;right: 0px;">
+            <div id="smallObjs"></div>
+
+            <div id="smallObjs"></div>
+            <div id="smallObjs"></div>
+
+            <div id="smallObjs"></div>
+
+            <div id="smallObjs" style="margin-right: 100px;"></div>
+            <div id="smallObjs" style="padding-right: 100px;"></div>
+
+            <div id="smallObjs"></div>
+
+            <div id="smallObjs"></div>
+            <div id="smallObjs"></div>
+
+            <div id="smallObjs"></div>
+
+            <div id="smallObjs" style="margin-right: 800px;"></div>
+
+            <div id="smallObjs"></div>
+
+            <div id="smallObjs"></div>
+
+        </div>
+    </div>
+</body>
+
+</html>
